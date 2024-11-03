@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="920.0" prefWidth="1326.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo9.Sta">
+   <children>
+      <VBox layoutX="64.0" layoutY="123.0" prefHeight="661.0" prefWidth="219.0">
+         <children>
+            <Label fx:id="l10" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l9" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l8" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l7" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l6" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l5" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l3" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l1" alignment="CENTER" prefHeight="49.0" prefWidth="219.0">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="613.0" layoutY="639.0" prefHeight="122.0" prefWidth="159.0">
+         <children>
+            <TextField fx:id="in" alignment="CENTER" prefHeight="46.0" prefWidth="159.0">
+               <font>
+                  <Font size="25.0" />
+               </font></TextField>
+            <Button mnemonicParsing="false" onAction="#ok" prefHeight="45.0" prefWidth="159.0" text="OK">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Label fx:id="mis" layoutX="469.0" layoutY="109.0" prefHeight="135.0" prefWidth="621.0" style="-fx-background-color: gray;">
+         <font>
+            <Font size="31.0" />
+         </font></Label>
+      <Button layoutX="1170.0" layoutY="32.0" mnemonicParsing="false" onAction="#back" prefHeight="40.0" prefWidth="74.0" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="1168.0" layoutY="90.0" mnemonicParsing="false" onAction="#ref" prefHeight="38.0" prefWidth="78.0" text="New">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

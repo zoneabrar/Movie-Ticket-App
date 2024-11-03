@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="705.0" prefWidth="1060.0" style="-fx-background-color: #1c3345;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo9.Que">
+   <children>
+      <Label fx:id="full" alignment="CENTER" layoutX="670.0" layoutY="313.0" prefHeight="131.0" prefWidth="289.0" textFill="#ffc001">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <HBox layoutX="151.0" layoutY="139.0" prefHeight="95.0" prefWidth="699.0" spacing="15.0" style="-fx-border-width: 12;">
+         <children>
+            <Label fx:id="lv10" alignment="CENTER" prefHeight="185.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv9" alignment="CENTER" prefHeight="185.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv8" alignment="CENTER" prefHeight="192.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv7" alignment="CENTER" prefHeight="219.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv6" alignment="CENTER" prefHeight="223.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv5" alignment="CENTER" prefHeight="215.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv4" alignment="CENTER" prefHeight="187.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv3" alignment="CENTER" prefHeight="185.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv2" alignment="CENTER" prefHeight="185.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lv1" alignment="CENTER" prefHeight="185.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <Label fx:id="full1" alignment="CENTER" layoutX="46.0" layoutY="313.0" prefHeight="131.0" prefWidth="289.0" textFill="#ffc001">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <HBox layoutX="162.0" layoutY="482.0" prefHeight="95.0" prefWidth="699.0" spacing="15.0">
+         <children>
+            <Label fx:id="r10" alignment="CENTER" prefHeight="208.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r9" alignment="CENTER" prefHeight="209.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r8" alignment="CENTER" prefHeight="195.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r7" alignment="CENTER" prefHeight="216.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r6" alignment="CENTER" prefHeight="206.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r5" alignment="CENTER" prefHeight="181.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r4" alignment="CENTER" prefHeight="223.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r3" alignment="CENTER" prefHeight="218.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r2" alignment="CENTER" prefHeight="177.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="r1" alignment="CENTER" prefHeight="218.0" prefWidth="55.0" style="-fx-background-color: #1c3345;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <TextField fx:id="insert" alignment="CENTER" layoutX="350.0" layoutY="328.0" prefHeight="60.0" prefWidth="306.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Button layoutX="350.0" layoutY="393.0" mnemonicParsing="false" onAction="#ok" prefHeight="52.0" prefWidth="152.0" text="ENQUEUE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="512.0" layoutY="393.0" mnemonicParsing="false" onAction="#out" prefHeight="52.0" prefWidth="144.0" text="DEQUEUE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="11.0" mnemonicParsing="false" onAction="#back" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #1c3345;">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="53.0" fitWidth="57.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../image/Back%20Button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="963.0" layoutY="11.0" mnemonicParsing="false" onAction="#ref" prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #1c3345;">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="54.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Dead%20Fresh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="390.0" layoutY="14.0" prefHeight="50.0" prefWidth="280.0" text="     QUEUE" textFill="#eeebeb">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

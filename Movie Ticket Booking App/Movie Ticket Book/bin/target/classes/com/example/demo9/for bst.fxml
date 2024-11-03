@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="958.0" prefWidth="1330.0" style="-fx-background-color: #414342;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo9.ForBst">
+   <children>
+      <TextField fx:id="value" layoutX="89.0" layoutY="38.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Label layoutX="38.0" layoutY="44.0" text="insert" textFill="#ddd8d8">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circle" fill="#414342" layoutX="583.0" layoutY="166.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circlel2" fill="#414342" layoutX="814.0" layoutY="538.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circler3" fill="#414342" layoutX="467.0" layoutY="498.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circler2" fill="#414342" layoutX="155.0" layoutY="498.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circlel1" fill="#414342" layoutX="908.0" layoutY="335.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circler1" fill="#414342" layoutX="315.0" layoutY="343.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circlel3" fill="#414342" layoutX="1112.0" layoutY="527.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Line fx:id="liner1" endX="165.0" endY="-103.0" layoutX="389.0" layoutY="287.0" startX="-48.0" startY="29.0" stroke="#414342" />
+      <Line fx:id="linel1" endX="148.0" endY="43.0" layoutX="727.0" layoutY="277.0" startX="-119.0" startY="-92.0" stroke="#414342" />
+      <Line fx:id="liner2" endX="66.0" endY="-65.0" layoutX="221.0" layoutY="433.0" startX="-47.0" startY="32.0" stroke="#414342" />
+      <Line fx:id="liner3" endX="64.0" endY="48.0" layoutX="389.0" layoutY="417.0" startX="-54.0" startY="-47.0" stroke="#414342" />
+      <Line fx:id="linel2" endX="61.0" endY="-56.0" layoutX="828.0" layoutY="417.0" startX="-8.0" startY="86.0" stroke="#414342" />
+      <Line fx:id="linel3" endX="99.0" endY="81.0" layoutX="1000.0" layoutY="419.0" startX="-65.0" startY="-62.0" stroke="#414342" />
+      <Label fx:id="level_r_1" layoutX="292.0" layoutY="328.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_2" layoutX="791.0" layoutY="527.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_3" layoutX="444.0" layoutY="484.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_2" layoutX="132.0" layoutY="483.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_root_1" layoutX="578.0" layoutY="151.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_3" layoutX="1089.0" layoutY="512.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_1" layoutX="903.0" layoutY="320.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="318.0" layoutY="38.0" mnemonicParsing="false" onAction="#ok_action" text="OK">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Circle fx:id="circler7" fill="#414342" layoutX="561.0" layoutY="722.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circler6" fill="#414342" layoutX="405.0" layoutY="714.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circler5" fill="#414342" layoutX="196.0" layoutY="700.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circler4" fill="#414342" layoutX="54.0" layoutY="700.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circlel7" fill="#414342" layoutX="1241.0" layoutY="729.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circlel6" fill="#414342" layoutX="1089.0" layoutY="739.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circlel5" fill="#414342" layoutX="885.0" layoutY="739.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Circle fx:id="circlel4" fill="#414342" layoutX="751.0" layoutY="739.0" radius="35.0" stroke="#414342" strokeType="INSIDE" />
+      <Line fx:id="linel7" endX="40.0" endY="44.0" layoutX="1201.0" layoutY="645.0" startX="-70.0" startY="-85.0" stroke="#414342" />
+      <Line fx:id="linel5" endX="3.0" endY="53.0" layoutX="882.0" layoutY="651.0" startX="-55.0" startY="-78.0" stroke="#414342" />
+      <Line fx:id="linel6" endX="121.0" endY="-94.0" layoutX="991.0" layoutY="661.0" startX="94.0" startY="38.0" stroke="#414342" />
+      <Line fx:id="linel4" endX="117.0" endY="-88.0" layoutX="687.0" layoutY="661.0" startX="64.0" startY="43.0" stroke="#414342" />
+      <Line fx:id="liner7" endX="18.0" endY="53.0" layoutX="543.0" layoutY="634.0" startX="-68.0" startY="-101.0" stroke="#414342" />
+      <Line fx:id="liner6" endX="53.0" endY="-118.0" layoutX="414.0" layoutY="651.0" startX="-9.0" startY="28.0" stroke="#414342" />
+      <Line fx:id="liner5" endX="-21.999969482421875" endY="56.0" layoutX="217.0" layoutY="610.0" startX="-52.0" startY="-72.0" stroke="#414342" />
+      <Line fx:id="liner4" endX="49.0" endY="-105.0" layoutX="87.0" layoutY="636.0" startX="-28.0" startY="30.0" stroke="#414342" />
+      <Label fx:id="le_L7" layoutX="1218.0" layoutY="720.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="le_L6" layoutX="1066.0" layoutY="724.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_5" layoutX="862.0" layoutY="724.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_4" layoutX="732.0" layoutY="724.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_7" layoutX="538.0" layoutY="707.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_6" layoutX="382.0" layoutY="700.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_5" layoutX="173.0" layoutY="690.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_4" layoutX="31.0" layoutY="685.0" textFill="#570606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sorry" layoutX="305.0" layoutY="848.0" prefHeight="88.0" prefWidth="792.0">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Button layoutX="1169.0" layoutY="24.0" mnemonicParsing="false" onAction="#back" prefHeight="40.0" prefWidth="74.0" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="1167.0" layoutY="76.0" mnemonicParsing="false" onAction="#ref" prefHeight="38.0" prefWidth="78.0" text="New">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="853.0" prefWidth="1336.0" style="-fx-background-color: #1c3345;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo9.ForBst">
+   <children>
+      <TextField fx:id="value" layoutX="129.0" layoutY="115.0" prefHeight="40.0" prefWidth="147.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" depthTest="DISABLE" layoutX="42.0" layoutY="117.0" prefHeight="38.0" prefWidth="70.0" style="-fx-background-color: #ffc001;" text="INSERT" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Circle fx:id="circle" fill="#1c3345" layoutX="670.0" layoutY="136.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="682.0" AnchorPane.leftAnchor="635.0" AnchorPane.rightAnchor="631.0" AnchorPane.topAnchor="101.0" />
+      <Circle fx:id="circlel2" fill="#1c3345" layoutX="830.0" layoutY="373.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="299.0" AnchorPane.leftAnchor="795.0" AnchorPane.rightAnchor="471.0" AnchorPane.topAnchor="338.0" />
+      <Circle fx:id="circler3" fill="#1c3345" layoutX="533.0" layoutY="376.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="296.0" AnchorPane.leftAnchor="498.0" AnchorPane.rightAnchor="768.0" AnchorPane.topAnchor="341.0" />
+      <Circle fx:id="circler2" fill="#1c3345" layoutX="231.0" layoutY="369.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="1070.0" AnchorPane.topAnchor="334.0" />
+      <Circle fx:id="circlel1" fill="#1c3345" layoutX="996.0" layoutY="236.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="436.0" AnchorPane.leftAnchor="961.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="201.0" />
+      <Circle fx:id="circler1" fill="#1c3345" layoutX="390.0" layoutY="237.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="435.0" AnchorPane.leftAnchor="354.0" AnchorPane.rightAnchor="911.0" AnchorPane.topAnchor="202.0" />
+      <Circle fx:id="circlel3" fill="#1c3345" layoutX="1146.0" layoutY="364.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="308.0" AnchorPane.leftAnchor="1111.0" AnchorPane.rightAnchor="155.0" AnchorPane.topAnchor="329.0" />
+      <Line fx:id="liner1" endX="167.0" endY="-64.0" layoutX="468.0" layoutY="200.0" startX="-52.0" startY="12.0" stroke="#1c3345" />
+      <Line fx:id="linel1" endX="1898.0" endY="1094.0" layoutX="-932.0" layoutY="-875.0" startX="1639.0" startY="1011.0" stroke="#1c3345" AnchorPane.bottomAnchor="633.2928466796875" AnchorPane.leftAnchor="706.2928466796875" AnchorPane.rightAnchor="369.2928466796875" AnchorPane.topAnchor="135.29290771484375" />
+      <Line fx:id="liner2" endX="119.0" endY="-141.0" layoutX="235.0" layoutY="389.0" startX="11.666671752929688" startY="-46.333343505859375" stroke="#1c3345" />
+      <Line fx:id="liner3" endX="-3.0" endY="33.0" layoutX="517.0" layoutY="314.0" startX="-101.0" startY="-56.666656494140625" stroke="#1c3345" />
+      <Line fx:id="linel2" endX="149.66668701171875" endY="-56.666656494140625" layoutX="821.0" layoutY="314.0" startX="32.33331298828125" startY="32.666656494140625" stroke="#1c3345" />
+      <Line fx:id="linel3" endX="-5.3333740234375" endY="1.0" layoutX="1137.0" layoutY="333.0" startX="-110.3333740234375" startY="-82.33332824707031" stroke="#1c3345" />
+      <Label fx:id="level_r_1" layoutX="380.0" layoutY="222.0" prefHeight="30.0" prefWidth="38.0" text="r1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_2" layoutX="818.0" layoutY="358.0" prefHeight="30.0" prefWidth="38.0" text="l2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_3" layoutX="521.0" layoutY="361.0" prefHeight="30.0" prefWidth="38.0" text="r3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_2" layoutX="211.0" layoutY="354.0" prefHeight="30.0" prefWidth="38.0" text="r2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_root_1" layoutX="651.0" layoutY="121.0" text="root">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_3" layoutX="1132.0" layoutY="349.0" prefHeight="30.0" prefWidth="38.0" text="l3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_1" layoutX="984.0" layoutY="218.0" prefHeight="30.0" prefWidth="38.0" text="l1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circler7" fill="#1c3345" layoutX="627.0" layoutY="577.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="592.0" AnchorPane.rightAnchor="674.0" AnchorPane.topAnchor="537.0" />
+      <Circle fx:id="circler6" fill="#1c3345" layoutX="415.0" layoutY="574.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="98.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="886.0" AnchorPane.topAnchor="537.0" />
+      <Circle fx:id="circler5" fill="#1c3345" layoutX="299.0" layoutY="572.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="264.0" AnchorPane.rightAnchor="1002.0" AnchorPane.topAnchor="537.0" />
+      <Circle fx:id="circler4" fill="#1c3345" layoutX="93.0" layoutY="572.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="1208.0" AnchorPane.topAnchor="537.0" />
+      <Circle fx:id="circlel7" fill="#1c3345" layoutX="1273.0" layoutY="575.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="1208.0" AnchorPane.rightAnchor="58.0" AnchorPane.topAnchor="537.0" />
+      <Circle fx:id="circlel6" fill="#1c3345" layoutX="1061.0" layoutY="572.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="1026.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="537.0" />
+      <Circle fx:id="circlel5" fill="#1c3345" layoutX="917.0" layoutY="562.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="882.0" AnchorPane.rightAnchor="384.0" AnchorPane.topAnchor="537.0" />
+      <Circle fx:id="circlel4" fill="#1c3345" layoutX="718.0" layoutY="576.0" radius="35.0" stroke="#1c3345" strokeType="INSIDE" AnchorPane.bottomAnchor="96.0" AnchorPane.topAnchor="537.0" />
+      <Line fx:id="linel7" endX="30.0" endY="47.0" layoutX="1199.0" layoutY="490.0" startX="-27.0" startY="-100.66665649414062" stroke="#1c3345" />
+      <Line fx:id="linel5" endX="-2.66668701171875" endY="61.0" layoutX="912.0" layoutY="476.0" startX="-55.0" startY="-78.0" stroke="#1c3345" />
+      <Line fx:id="linel6" endX="144.6666259765625" endY="-111.0" layoutX="978.0" layoutY="499.0" startX="94.0" startY="38.0" stroke="#1c3345" />
+      <Line fx:id="linel4" endX="112.0" endY="-81.66665649414062" layoutX="692.0" layoutY="479.0" startX="38.66668701171875" startY="62.0" stroke="#1c3345" />
+      <Line fx:id="liner7" endX="-60.0" endY="36.0" layoutX="676.0" layoutY="506.0" startX="-120.0" startY="-103.33334350585938" stroke="#1c3345" />
+      <Line fx:id="liner6" endX="-6.666656494140625" endY="-112.0" layoutX="516.0" layoutY="512.0" startX="-86.66665649414062" startY="27.0" stroke="#1c3345" />
+      <Line fx:id="liner5" endX="-8.0" endY="64.0" layoutX="303.0" layoutY="473.0" startX="-53.66667175292969" startY="-79.66665649414062" stroke="#1c3345" />
+      <Line fx:id="liner4" endX="56.33332824707031" endY="-152.33334350585938" layoutX="145.0" layoutY="547.0" startX="-39.0" startY="-10.0" stroke="#1c3345" />
+      <Label fx:id="le_L7" layoutX="1230.0" layoutY="560.0" prefHeight="30.0" prefWidth="47.0" text="l7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="le_L6" layoutX="1034.0" layoutY="560.0" prefHeight="30.0" prefWidth="54.0" text="l6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_5" layoutX="894.0" layoutY="557.0" prefHeight="30.0" prefWidth="47.0" text="l5" AnchorPane.bottomAnchor="266.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L_4" layoutX="706.0" layoutY="557.0" prefHeight="30.0" prefWidth="47.0" text="l4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_7" layoutX="614.0" layoutY="557.0" prefHeight="30.0" prefWidth="38.0" text="r7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_6" layoutX="405.0" layoutY="557.0" prefHeight="30.0" prefWidth="38.0" text="r6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_5" layoutX="284.0" layoutY="557.0" prefHeight="30.0" prefWidth="38.0" text="r5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_r_4" layoutX="83.0" layoutY="557.0" prefHeight="30.0" prefWidth="38.0" text="r4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sorry" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="714.0" prefHeight="88.0" prefWidth="1185.0">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="281.0" layoutY="104.0" mnemonicParsing="false" onAction="#ok_action" prefHeight="65.0" prefWidth="61.0" style="-fx-background-color: #1c3345;">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="47.0" fitWidth="54.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../image/Select%20Gold.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="8.0" layoutY="11.0" mnemonicParsing="false" onAction="#back" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #1c3345;">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="57.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Back%20Button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="1254.0" layoutY="8.0" mnemonicParsing="false" onAction="#ref" prefHeight="38.0" prefWidth="78.0" style="-fx-background-color: #1c3345;">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="59.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Dead%20Fresh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label alignment="CENTER" layoutX="540.0" layoutY="23.0" prefHeight="42.0" prefWidth="260.0" text="B   S   T" textFill="#f2eeee">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
